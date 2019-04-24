@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid {
+        border:5px solid pink;
+        display:grid;
+        /*fr은 비율로 나눠서 사용한다.*/
+        grid-template-columns:150px 1fr;
+      }
+      div {
+        border:5px solid gray;
+      }
+    </style>
+
+  </head>
+  <body>
+    <!--div태그는 블록태그 span태그는 인라인태그-->
+    <div id="grid">
+      <div>네비게이션</div>
+      <div>아티클</div>
+    </div>
+
+  </body>
+</html>
