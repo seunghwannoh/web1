@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>WEB1 - html</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-  <div id="grid">
-    <div id="list">
-      <!--Ordered List-->
-        <ol>
-          <!--List-->
-          <li><a href="1.html" class="saw">HTML</a></li>
-          <li><a href="2.html" class="saw" id="active">CSS</a></li>
-          <li><a href="3.html">JavaScript</a></li>
-        </ol>
+  <head>
+    <title>WEB1 - html</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="colors.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input type="button" value="night"
+      onclick="nightDayHandler(this);">
+    <div id="grid">
+      <div id="list">
+        <!--Ordered List-->
+          <ol>
+            <!--List-->
+            <li><a href="1.html" class="saw">HTML</a></li>
+            <li><a href="2.html" class="saw" id="active">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+          </ol>
 
-        <!--Unordered List-->
-        <ul>
-          <li>123</li>
-          <li>abc</li>
-          <li>가나다</li>
-        </ul>
+          <!--Unordered List-->
+          <ul>
+            <li>123</li>
+            <li>abc</li>
+            <li>가나다</li>
+          </ul>
+      </div>
+      <div id="article">
+        <!--Head-->
+        <h2>우웨엡!</h2>
+
+        <!--Image, Source-->
+        <img src="coding.jpg" width="100%">
+        <!--
+        <img src="coding.jpg" height="100%">
+        -->
+
+        <!--br....-->
+        <br><br><br><a href="https://www.advancedwebranking.com/html/" target="_blank" title="랭킹 정보">advancedwebranking.com</a> 참조
+        <br><br><br><a href="https://unsplash.com/" target="_blank" title="고화질 무료 이미지 제공">unsplash.com</a> 참조
+      </div>
     </div>
-    <div id="article">
-      <!--Head-->
-      <h2>우웨엡!</h2>
-
-      <!--Image, Source-->
-      <img src="coding.jpg" width="100%">
-      <!--
-      <img src="coding.jpg" height="100%">
-      -->
-
-      <!--br....-->
-      <br><br><br><a href="https://www.advancedwebranking.com/html/" target="_blank" title="랭킹 정보">advancedwebranking.com</a> 참조
-      <br><br><br><a href="https://unsplash.com/" target="_blank" title="고화질 무료 이미지 제공">unsplash.com</a> 참조
-    </div>
-  </div>
   </body>
 </html>
